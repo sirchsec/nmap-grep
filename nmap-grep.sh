@@ -150,7 +150,7 @@ if [ "$varDoWebUrl" = "Y" ]; then echo "- Create web-urls.txt"; fi
 if [ "$varDoSmbUrl" = "Y" ]; then echo "- Create smb-urls.txt"; fi
 echo
 if [ "$varFlagOutExists" = "Y" ]; then echo "Note: $varOutPath already existed. Files may be appended."; echo; fi
-read -p "Press Enter to confirm..."
+#read -p "Press Enter to confirm..."
 echo
 echo "===========================[ results ]==========================="
 
